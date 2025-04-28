@@ -1,0 +1,28 @@
+{
+    "baseClubUrl": "https://www.swgc.com",    
+    
+    "teeTime": {
+        "earliestTeeTime": "17:20",
+        "maxTeeTimesToConsider": 1,
+        "teeTimeGap": 10,
+        "maxNumberOfBookingAttempts": 3
+    },
+    
+    "bookingPause": {
+        "minBookingPauseInSecs": 20,
+        "bookingPauseVariabilityInSecs": 30
+    },
+    
+    "bookingOpens": {
+        "botIsActive": true,
+        "hour": 20,
+        "minute": 15,
+        "daysAheadToBook": 5
+    },
+    
+    "golfers": [
+        {"type": "member", "firstname": "Paul", "surname": "Clark", "memberid": "EMAIL@ADDRESS", "pin": "PIN-NUMBER"}, 
+        {"type": "member", "firstname": "Alan", "surname": "Brownlee", "memberid": "", "pin": ""},
+        {"type": "guest", "firstname": "Martin", "surname": "Gay"}
+    ]    
+}
