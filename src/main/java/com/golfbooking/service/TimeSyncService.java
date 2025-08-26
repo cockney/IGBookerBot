@@ -71,7 +71,7 @@ public class TimeSyncService {
         }
 
         LOGGER.log(Level.INFO,
-                "Time sync - Server: {1}, Local: {2}, Avg Latency: {3} ms",
+                "Time sync - Server: {0}, Local: {1}, Avg Latency: {2} ms",
                 new Object[]{calculatedServerTime, localNow, averageLatency.toMillis()}
         );
 
